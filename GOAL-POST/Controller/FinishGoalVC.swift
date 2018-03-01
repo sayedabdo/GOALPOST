@@ -48,7 +48,7 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
         
         goal.goalDescription = goalDescription
         goal.goalType = goalType.rawValue
-        goal.goalCompletionValue = Int32(pointsTextField.text!)!
+        goal.goalcompletionvalue = Int32(pointsTextField.text!)!
         goal.goalProgress = Int32(0)
         
         do {
